@@ -8,11 +8,11 @@ Lastly, the updated dataframe is then written into memory and then uploaded to G
 ![Screenshot from 2023-10-27 13-28-21](https://github.com/corcor27/Lesion_dash_app/assets/29410420/217359c1-332d-4f9f-8306-824081f47c04)
 
 # build docker image
-Install Docker locally: sudo snap install docker
-If demon socket error enter: sudo chmod 666 /var/run/docker.sock
-to build docker image called "lesion_dash_app" enter: docker build -t lesion_dash_app .
-You can then test the docker image by running: docker run -p 8050:8050 lesion_dash_app
-make sure the port "8050" corresponds to your dash python port at the bottom of the script
+Install Docker locally: sudo snap install docker  
+If demon socket error enter: sudo chmod 666 /var/run/docker.sock  
+to build docker image called "lesion_dash_app" enter: docker build -t lesion_dash_app .  
+You can then test the docker image by running: docker run -p 8050:8050 lesion_dash_app  
+make sure the port "8050" corresponds to your dash python port at the bottom of the script  
 
 # AWS UPLOADING
 
