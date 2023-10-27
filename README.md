@@ -47,7 +47,16 @@ aws configure set default.output json
 $(aws ecr get-login --no-include-email --region <YOUR REGION>)  
 
 ## Pushing docker image
+Here is your repositry
+
+![1 pxJPZpuOf5BnunTgQt8Szw](https://github.com/corcor27/Lesion_dash_app/assets/29410420/d08b8499-ae2d-4596-9163-f27817a9ec67)
+
+To push docker image run:  
+docker tag conjoint_dashboard <ACCOUNT NUM>.dkr.ecr.<REGION>.amazonaws.com/dashboard
+
+docker push <ACCOUNT NUM>.dkr.ecr.<REGION>.amazonaws.com/dashboard
 
 
+![1 2J7MEJjTAJbvrlkuhhw3gw](https://github.com/corcor27/Lesion_dash_app/assets/29410420/65431c7c-b3be-4a04-8eea-4cc76ca6d89c)
 
 
